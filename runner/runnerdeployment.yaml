@@ -6,7 +6,7 @@ spec:
   replicas: 1
   template:
     spec:
-      repository: luminesoft/GithubRunnerOnAKS
+      repository: luminesoft/github-runner-on-aks
       organization: luminesoft 
       image: ghcr.io/luminesoft/github-runner-on-aks:main
       imagePullSecrets:
